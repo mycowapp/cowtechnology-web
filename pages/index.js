@@ -14,11 +14,15 @@ export default function Home() {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
+            justify-content: center;
+            text-align: center;
           }
           main {
             padding: 20px;
             background: #f9f9f9;
             border-radius: 8px;
+            justify-content: center;
+            text-align: center;            
           }
           h1, h2 {
             color: #333;
@@ -37,6 +41,7 @@ export default function Home() {
           flex-direction: column;
           background-color: rgb(217, 217, 217);
           justify-content: center;
+          text-align: center;
           }
 
           .flex-container > div {
@@ -46,6 +51,8 @@ export default function Home() {
             text-align: center;
             line-height: 75px;
             font-size: 30px;
+            justify-content: center;
+            text-align: center;
           }
         `}</style>
       </Head>
