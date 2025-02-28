@@ -34,7 +34,7 @@ export default function Home() {
       </Head>
 
       <Header title="Welcome to my app!" />
-
+      <div style="margin-top: 100px" />
       <main>
         <h1>User Data Privacy Policy</h1>
 
