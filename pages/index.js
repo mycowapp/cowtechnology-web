@@ -25,7 +25,10 @@ export default function Home() {
             text-align: center;            
           } */
           h1, h2 {
-            color: #333;
+            color: rgb(102, 102, 102);
+          }
+          h3 {
+            color: rgb(128, 128, 128);
           }
           p, ul {
             color: #666;
