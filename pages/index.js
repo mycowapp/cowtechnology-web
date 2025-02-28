@@ -5,7 +5,7 @@ import Footer from '@components/Footer';
 
 export default function Home() {
   return (
-    <div class=".flex-container">
+    <div class="flex-container">
       <Head>
         <title>Welcome to Cow Technology!</title>
         <link rel="icon" href="/favicon.ico" />
@@ -48,11 +48,13 @@ export default function Home() {
         `}</style>
       </Head>
 
-      <Header title="Welcome to my app!" />
+      <Header title="Cow Technology" />
       <main>
         <h1>User Data Privacy Policy</h1>
-        <h2>Introduction</h2>
-        <p>This Privacy Policy describes how we, Cow Technology, collects, uses, and discloses information, and what choices you have with respect to the information when you use our mobile applications. Given our commitment to your privacy, our app has been designed to not require or store any personal data.</p>
+        <div class="flex-container">
+          <h2>Introduction</h2>
+          <p>This Privacy Policy describes how we, Cow Technology, collects, uses, and discloses information, and what choices you have with respect to the information when you use our mobile applications. Given our commitment to your privacy, our app has been designed to not require or store any personal data.</p>
+        </div>
 
         <h2>Updates to this Policy</h2>
         <p>We may update this Privacy Policy from time to time. We encourage you to review this Privacy Policy frequently to be informed of how we are protecting your information.</p>
