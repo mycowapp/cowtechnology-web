@@ -64,6 +64,7 @@ export default function Home() {
 
       <Header title="Cow Technology" />
       <main>
+        <hr style="width:50%" />
         <h2>User Data Privacy Policy</h2>
         <h3>Introduction</h3>
         <div>
