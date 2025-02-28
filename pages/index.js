@@ -7,11 +7,11 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Welcome to Cow Technology!</title>
         <link rel="icon" href="/favicon.ico" />
         <style>{`
           .container {
-            max-width: 800px;
+            max-width: 1000px;
             margin: 0 auto;
             padding: 20px;
           }
@@ -37,7 +37,6 @@ export default function Home() {
       <div style="margin-top: 100px" />
       <main>
         <h1>User Data Privacy Policy</h1>
-
         <h2>Introduction</h2>
         <p>This Privacy Policy describes how we, Cow Technology, collects, uses, and discloses information, and what choices you have with respect to the information when you use our mobile applications. Given our commitment to your privacy, our app has been designed to not require or store any personal data.</p>
 
