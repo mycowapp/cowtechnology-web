@@ -33,10 +33,10 @@ export default function Home() {
 
           .flex-container {
           display: flex;
-          max-width: 600px;
+          max-width: 800px;
           flex-direction: column;
           background-color: rgb(217, 217, 217);
-          text-align: center;
+          justify-content: center;
           }
 
           .flex-container > div {
