@@ -5,7 +5,7 @@ import Footer from '@components/Footer';
 
 export default function Home() {
   return (
-    <div class="container">
+    <div class="flex-container">
       <Head>
         <title>Welcome to Cow Technology!</title>
         <link rel="icon" href="/favicon.ico" />
@@ -33,7 +33,7 @@ export default function Home() {
 
           .flex-container {
           display: flex;
-          max-width: 500px;
+          max-width: 600px;
           flex-direction: column;
           background-color: rgb(217, 217, 217);
           text-align: center;
@@ -41,7 +41,7 @@ export default function Home() {
 
           .flex-container > div {
             background-color: #f1f1f1;
-            width: 300px;
+            width: 400px;
             margin: 10px;
             text-align: center;
             line-height: 75px;
@@ -51,7 +51,7 @@ export default function Home() {
       </Head>
 
       <Header title="Cow Technology" />
-      <main class="flex-container">
+      <main>
         <h1>User Data Privacy Policy</h1>
         <h2>Introduction</h2>
         <div>
