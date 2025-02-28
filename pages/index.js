@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div class="flex-container">
       <Head>
-        <title>Welcome to Cow Technology!</title>
+        <title>Cow Technology</title>
         <link rel="icon" href="/favicon.ico" />
         <style>{`
           .container {
@@ -17,13 +17,13 @@ export default function Home() {
             justify-content: center;
             text-align: center;
           }
-          main {
+          /* main {
             padding: 20px;
             background: #f9f9f9;
             border-radius: 8px;
             justify-content: center;
             text-align: center;            
-          }
+          } */
           h1, h2 {
             color: #333;
           }
@@ -37,6 +37,8 @@ export default function Home() {
 
           .flex-container {
           display: flex;
+          margin: 0 auto;
+          padding: 20px;
           max-width: 800px;
           flex-direction: column;
           background-color: rgb(217, 217, 217);
