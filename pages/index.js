@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <style>{`
           .container {
-            max-width: 800px;
+            max-width: 500px;
             margin: 0 auto;
             padding: 20px;
           }
@@ -35,6 +35,7 @@ export default function Home() {
           display: flex;
           flex-direction: column;
           background-color: rgb(217, 217, 217);
+          text-align: center;
           }
 
           .flex-container > div {
@@ -51,10 +52,9 @@ export default function Home() {
       <Header title="Cow Technology" />
       <main>
         <h1>User Data Privacy Policy</h1>
-        <div class="flex-container">
-          <h2>Introduction</h2>
-          <p>This Privacy Policy describes how we, Cow Technology, collects, uses, and discloses information, and what choices you have with respect to the information when you use our mobile applications. Given our commitment to your privacy, our app has been designed to not require or store any personal data.</p>
-        </div>
+        <h2>Introduction</h2>
+        <p>This Privacy Policy describes how we, Cow Technology, collects, uses, and discloses information, and what choices you have with respect to the information when you use our mobile applications. Given our commitment to your privacy, our app has been designed to not require or store any personal data.</p>
+
 
         <h2>Updates to this Policy</h2>
         <p>We may update this Privacy Policy from time to time. We encourage you to review this Privacy Policy frequently to be informed of how we are protecting your information.</p>
