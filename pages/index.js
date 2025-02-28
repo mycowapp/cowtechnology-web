@@ -31,7 +31,7 @@ export default function Home() {
             color: rgb(128, 128, 128);
           }
           p, ul {
-            color: #666;
+            color: rgb(69, 69, 69);
             line-height: 1.6;
           }
           ul {
